@@ -190,7 +190,7 @@
 
 
 
-@media only screen and (max-width: 320px) {
+@media (max-width: 340px) {
     .post-inside img {
         max-width: 274px;
         height: auto;
@@ -265,15 +265,118 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
-
+@media (max-width: 380px) {
+    .post-inside {
+        padding: 0;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .post-inside img {
+        max-width: 100%;
+        height: auto;
+    }
+    .des-entry {
+        width: 290px;
+        text-align: justify;
+    }
+    .navbar {
+        text-decoration: none;
+        margin-top: 3rem;
+    }
+    .navbar .logo {
+        float: left;
+        margin-left: 1rem;
+    }
+    .navbar .navbar-ul .navbar-items {
+        display: block;
+    }
+    .nav-mobile {
+        display: none;
+        padding: 30px 26px 7px 27px;
+        width: 80%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        background-color: #fffffff0;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    .mobile-menu {
+        margin: -20px 25px 0 0;
+        display: block;
+    }
+    
+    .mobile-menu i {
+        margin-top: 1rem;
+        font-size: 22px;
+        color: #000;
+    }
+    .post-summary .summary-container .text-h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+    .footer-top .ft {
+        padding: 4rem;
+    }
 }
 
-/* // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... } */
+@media (max-width:480px) {
+    .navbar {
+        text-decoration: none;
+        margin-top: 4rem;
+    }
+    .logo {
+        float: left;
+        margin-left: 2rem;
+    }
+    .post-inside img {
+        width: 500px;
+        border: 1px;
+        border-radius: 5px;
+    }
+    .navbar .navbar-ul .navbar-items {
+        display: block;
+    }
+    .post-summary .summary-container .text-h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+    .des-entry {
+        width: 400px;
+        overflow: hidden;
+        line-height: 25px;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    .nav-mobile {
+        display: none;
+        padding: 30px 26px 7px 27px;
+        width: 80%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        background-color: #fffffff0;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    .mobile-menu {
+        margin: -20px 25px 0 0;
+        display: block;
+    }
+    
+    .mobile-menu i {
+        margin-top: 1rem;
+        font-size: 22px;
+        color: #000;
+    }
+    .footer-top .ft {
+        padding: 4rem;
+    }
+}
