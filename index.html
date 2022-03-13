@@ -21,6 +21,10 @@
                 </a>
             </div>
             <ul class="navbar-ul nav-mobile" id="myLinks">
+                <div class="side-menu-overlay"></div>
+                <li class="inner-item nav-item">
+                    <a class="Close-mbm" href="javascript:void(0)" onclick="myFunction()"><i class='bx bx-x'></i></a>
+                  </li>
                 <li class="navbar-items">
                     <a href="#">Trang Chủ</a>
                 </li>
@@ -44,8 +48,9 @@
                         <input class="form-control me-2" type="search" placeholder="Tìm Kiếm..." aria-label="Search">
                         <button class="btn-search" type="submit"><i class='bx bx-search-alt-2'></i></button>
                     </form>
-                </li>            
+                </li>  
             </ul>
+            
             <div class="mobile-menu">
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class='bx bx-menu'></i>
@@ -320,7 +325,7 @@
 
     <div>
         <!--back on top-->
-      <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top p-3" role="button"><i class='bx bx-chevron-up-circle'></i></a>
+      <a id="back-to-top" href="#" class="btn btn-lg back-to-top p-3" role="button"><i class='bx bxs-chevron-up'></i></a>
       </div>
 
     <!-- Bootstrap JavaScript Libraries -->
@@ -340,6 +345,7 @@
           }
         }
     </script>
+
     
     <script>
       $(document).ready(function(){
